@@ -3,12 +3,12 @@ channels:
   - conda-forge
   - nodefaults
 dependencies:
-  - python=3.7
+  - python=3.6 # should be 3.7
   - bokeh
   - numpy
   - scipy
   - sympy
-  # - mayavi # conflict with python 3.7
+  - mayavi # conflict with python 3.7?
   - traitsui
   - traits
   - yapf
@@ -19,4 +19,5 @@ dependencies:
   - cython
   - pip
   - pip: # https://github.com/conda/conda/pull/3969
-      - --extra-index-url anaconda.org/rosoba bmcs
+      - --extra-index-url anaconda.org/rosoba
+      - bmcs
