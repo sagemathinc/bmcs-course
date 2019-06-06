@@ -12,7 +12,6 @@ dependencies:
   - mayavi
   - traitsui
   - traits
-  - bmcs
   - yapf
   - pandas
   - seaborn
