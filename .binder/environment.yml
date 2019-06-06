@@ -1,0 +1,21 @@
+name: bmcs
+channels:
+  - conda-forge
+  - rosoba
+  - nodefaults
+dependencies:
+  - python=3.7
+  - bokeh
+  - numpy
+  - scipy
+  - sympy
+  - mayavi
+  - traitsui
+  - traits
+  - bmcs
+  - yapf
+  - pandas
+  - seaborn
+  - scikit-learn
+  - matplotlib
+  - cython
