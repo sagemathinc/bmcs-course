@@ -17,5 +17,6 @@ dependencies:
   - scikit-learn
   - matplotlib
   - cython
+  - pip
   - pip: # https://github.com/conda/conda/pull/3969
       - --extra-index-url anaconda.org/rosoba bmcs
