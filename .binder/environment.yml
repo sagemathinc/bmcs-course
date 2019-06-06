@@ -1,7 +1,6 @@
 name: bmcs
 channels:
   - conda-forge
-  - rosoba
   - nodefaults
 dependencies:
   - python=3.7
@@ -9,7 +8,7 @@ dependencies:
   - numpy
   - scipy
   - sympy
-  - mayavi
+  # - mayavi # conflict with python 3.7
   - traitsui
   - traits
   - yapf
@@ -18,3 +17,5 @@ dependencies:
   - scikit-learn
   - matplotlib
   - cython
+  - pip: # https://github.com/conda/conda/pull/3969
+      - --extra-index-url anaconda.org/rosoba bmcs
